@@ -1,0 +1,62 @@
+.publication-grid {
+  background-color: beige;
+}
+
+.post {
+}
+
+.publication {
+  margin-bottom: 30px;
+  border: 3px black solid;
+  border-radius: 3px;
+}
+
+.post-content {
+  width: 550px;
+  height: 450px;
+}
+
+.profil {
+  width: 70px;
+  height: 60px;
+  border-radius: 35px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+}
+
+.profil-picture {
+  background-color: aqua;
+}
+
+.id-author {
+  display: flex;
+  flex-direction: column;
+  row-gap: -20px;
+  background-color: yellowgreen;
+}
+
+.name-author {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contributeur {
+  background-color: rgb(186, 189, 189);
+}
+
+.comments-photo {
+  width: 550px;
+  height: 270px;
+}
+
+.source-group {
+  font-weight: 700;
+}
+
+.description-post {
+  background-color: aliceblue;
+}
