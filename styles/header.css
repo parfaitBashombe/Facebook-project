@@ -17,13 +17,25 @@ header {
 .left-section {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  max-width: 700px;
+  padding-left: 5px;
+  padding-right: 1px;
+}
+
+.icon-facebook {
+  width: 60px;
 }
 
 .search-bar {
+  flex: 2;
   border-radius: 10px;
   border: 1px gray solid;
   height: 30px;
-  max-width: 300px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
 }
 
 .facebook-icon {
@@ -52,9 +64,10 @@ header {
 }
 
 .mid .tool-tip,
-.right .tool-tip {
+.right .tool-tip,
+.search-button .tool-tip {
   position: absolute;
-  bottom: -35px;
+  bottom: -50px;
   background-color: rgb(105, 105, 105);
   color: white;
   padding-top: 6px;
@@ -77,7 +90,24 @@ header {
   align-items: center;
 }
 
+.search-button {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border: 1px gray solid;
+  border-radius: 18px;
+}
+
+.search-button:hover {
+  background-color: rgb(231, 229, 229);
+}
+
 .right:hover .tool-tip,
-.mid:hover .tool-tip {
+.mid:hover .tool-tip,
+.search-button:hover .tool-tip {
   opacity: 1;
 }
