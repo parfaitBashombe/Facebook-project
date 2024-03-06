@@ -1,0 +1,28 @@
+.side-bar-2 {
+  position: fixed;
+  left: 1600px;
+  top: 52px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(88, 88, 88);
+  color: rgb(26, 25, 25);
+  padding-top: 8px;
+  box-shadow: 1px 0px 2px gray inset;
+  height: 100%;
+}
+
+.sponsored {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-sponsored img {
+  height: 120px;
+  width: 130px;
+}
+
+.id-sponsor {
+  display: flex;
+  flex-direction: column;
+}
