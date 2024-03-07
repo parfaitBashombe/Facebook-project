@@ -4,3 +4,23 @@ body {
   background-color: rgb(252, 249, 249);
   padding-top: 60px;
 }
+
+.new-message-light {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+
+.new-message {
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  z-index: 200;
+  background-color: rgb(252, 249, 249);
+}
+
+.new-message-dark {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
