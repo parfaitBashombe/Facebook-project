@@ -59,13 +59,34 @@
   border-radius: 3px;
 }
 
-.comments-photo {
-  width: 100%;
-  height: 270px;
-}
-
 .source-group {
   font-weight: 700;
   content: none;
   height: 30px;
+}
+
+.comments {
+  width: 100%;
+  height: 270px;
+  background-color: aquamarine;
+}
+
+.upper-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 5px;
+  border-top: 1px rgb(116, 114, 114) solid;
+  border-bottom: 1px rgb(116, 114, 114) solid;
+}
+
+.like,
+.comment {
+  height: 25px;
+  width: 40px;
+}
+
+.share {
+  height: 33px;
+  width: 40px;
 }
