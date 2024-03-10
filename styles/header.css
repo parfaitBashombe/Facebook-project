@@ -85,12 +85,11 @@ header {
   align-items: center;
   margin-left: 10px;
   margin-right: 10px;
-  padding: 2px 3px;
+  padding: 5px 5px;
 }
 
 .mid:hover {
   background-color: rgb(184, 182, 182);
-  border: 1px gray solid;
   border-radius: 8px;
 }
 
